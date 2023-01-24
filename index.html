@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>messagegpt</title>
+    <title>github site</title>
     <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
 <body>
     <br />
@@ -13,6 +13,14 @@
     <h2></h2>
 </body>
 
+<footer>
+<div class="footer">
+    <div class="flex-container">
+    <a href="https://github.com/themadcoderman">
+        &copy; 2023 TheMadCoderMan</a>
+    </div>
+</div>
+</footer>
 
 <style>
     /* bg = #151515 */
@@ -47,9 +55,13 @@
         border-bottom: 3px dotted #0A2342;
         width: fit-content;
     }
-    footer a {
-        color: #e0e0e0;
-        font-family: "Fira Code", monospace;
+    footer a, a:visited {
+        color: #626064;
+        text-decoration: none;
+    }
+    footer a:hover {
+        font-weight: bolder;
+        transition: 130ms linear;
     }
     footer > *:nth-last-child(n+2)::after {
         content: " - ";
@@ -75,6 +87,26 @@
         margin: 5px 5px;
         border-radius: 2px;
         padding: 3px, 3px;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1a1b2e;
+      color: white;
+      text-align: center;
+      border-top: 3px solid #0A2342;
+      height: 50px;
+    }
+
+    .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1a1b2e;
     }
 
 </style>
