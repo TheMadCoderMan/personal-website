@@ -2,12 +2,20 @@
 <html>
 <head>
     <title>github site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+    <link rel="stylesheet" href="css/styles.css">
 <body>
     <br />
     <h1>my funny lil github website</h1>
     <h2>Projects</h2>
-    <p>I got like 2 of them. :)</p>
+    <div class="scrollmenu">
+        <a href="">Project 1</a>
+        <a href="">Project 2</a>
+        <a href="">Project 3</a>
+        <a href="">Project 4</a>
+        <a href="">Project 5</a>
+    </div>
     <h2>Don't Contact Me</h2>
     <p>But if you do my discord is <a href="https://discord.com/users/483886248642084866/" target="_blank">Jesuss#4822</a></p>
     <h2></h2>
@@ -21,93 +29,4 @@
     </div>
 </div>
 </footer>
-
-<style>
-    /* bg = #151515 */
-    /* text = #fcfcfc */
-    /* accent: #0A2342 */
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Sans+Mono&family=Noto+Sans+Mono&family=Noto+Sans:ital,wgth@0,400;0,700;1,400&display=swap');
-
-    body {
-        width: calc(100vw - 40px);
-        max-width: 1200px;
-        margin: auto;
-        margin-bottom: 40pt;
-    }
-
-
-    body {
-        background: #151515;
-        color: #fcfcfc;
-
-        font-family: "Noto Sans", sans-serif;
-    }
-
-    a {
-        color: #286f81;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    h1, h2, h3, h4 {
-        font-family: "Fira Code", monospace;
-        border-bottom: 3px dotted #0A2342;
-        width: fit-content;
-    }
-    footer a, a:visited {
-        color: #626064;
-        text-decoration: none;
-    }
-    footer a:hover {
-        font-weight: bolder;
-        transition: 130ms linear;
-    }
-    footer > *:nth-last-child(n+2)::after {
-        content: " - ";
-        color: #0A2342;
-        font-family: "Fira Code"; 
-    }
-    footer {
-        text-align: center;
-    }
-    input[type=text] {
-        color: #fcfcfc;
-        background-color: #151515;
-        border: 2px solid #0A2342;
-        border-radius: 4px;
-        padding: 5px;
-    }
-
-    input[type=submit] {
-        background-color: #4CAF50;
-        border: none;
-        color: #fcfcfc;
-        font-size: 16px;
-        margin: 5px 5px;
-        border-radius: 2px;
-        padding: 3px, 3px;
-    }
-
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #1a1b2e;
-      color: white;
-      text-align: center;
-      border-top: 3px solid #0A2342;
-      height: 50px;
-    }
-
-    .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    background-color: #1a1b2e;
-    }
-
-</style>
 </html>

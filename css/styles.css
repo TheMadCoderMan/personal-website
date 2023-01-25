@@ -1,0 +1,146 @@
+.flex-container {
+    display: flex;
+    white-space: nowrap;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    color: black;
+}
+
+div.scrollmenu {
+    background-color: #151515;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    background-color: #505050;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    width: 250px;
+    height: 220px;
+    border-radius: 25px;
+    margin: 0 10px;
+  }
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #286f81; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0A2342; 
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Sans+Mono&family=Noto+Sans+Mono&family=Noto+Sans:ital,wgth@0,400;0,700;1,400&display=swap');
+
+    body {
+        width: calc(100vw - 40px);
+        max-width: 1200px;
+        margin: auto;
+        margin-bottom: 40pt;
+    }
+
+
+    body {
+        background: #151515;
+        color: #fcfcfc;
+
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    a {
+        color: #286f81;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    h1 {
+        font-family: "Fira Code", monospace;
+        text-align: center;
+    }
+    h2, h3, h4 {
+        font-family: "Fira Code", monospace;
+        border-bottom: 3px dotted #0A2342;
+        width: fit-content;
+    }
+    footer a, a:visited {
+        color: #626064;
+        text-decoration: none;
+    }
+    footer a:hover {
+        font-weight: bolder;
+        transition: 130ms linear;
+    }
+    footer > *:nth-last-child(n+2)::after {
+        content: " - ";
+        color: #0A2342;
+        font-family: "Fira Code"; 
+    }
+    footer {
+        text-align: center;
+    }
+    input[type=text] {
+        color: #fcfcfc;
+        background-color: #151515;
+        border: 2px solid #0A2342;
+        border-radius: 4px;
+        padding: 5px;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        border: none;
+        color: #fcfcfc;
+        font-size: 16px;
+        margin: 5px 5px;
+        border-radius: 2px;
+        padding: 3px, 3px;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #1a1b2e;
+      color: white;
+      text-align: center;
+      border-top: 3px solid #0A2342;
+      height: 50px;
+    }
+
+    footer .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1a1b2e;
+    }

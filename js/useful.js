@@ -1,0 +1,1 @@
+document.querySelector("body > div > div.col-md-7.col-lg-8.col-xl-9.px-4.py-6.px-lg-7.border-top.border-md-top-0.bg-gray-light > div > div.d-sm-flex.flex-wrap.gutter-condensed.mb-4 > div:nth-child(1)")
